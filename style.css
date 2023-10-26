@@ -1,0 +1,19 @@
+img {
+    border-radius: 20px;
+    width: 220px;
+}
+body {
+    padding: 20px;
+    background-color: aquamarine;
+    display: block;
+    margin: auto;
+    /* border-with:10px;
+border-color: blue;
+border-style: solide;*/
+    border: 10px blue solid;
+    font-family: sans-serif;
+    text-align: center;
+}
+/* pour centrer l'image qui est un inline-block 1 je règle son display pour en faire un block 2 je lui mets des marges automatique de chaque coté  */
+/* Pour centrer un élement inline-block: je mets un text aligne center; sur le parent de l'élément */
+/* pour centrer un élement bloc: je lui mets un margin: auto */
