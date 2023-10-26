@@ -17,3 +17,10 @@ border-style: solide;*/
 /* pour centrer l'image qui est un inline-block 1 je règle son display pour en faire un block 2 je lui mets des marges automatique de chaque coté  */
 /* Pour centrer un élement inline-block: je mets un text aligne center; sur le parent de l'élément */
 /* pour centrer un élement bloc: je lui mets un margin: auto */
+
+@media (min-width: 800px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+    }
+}
